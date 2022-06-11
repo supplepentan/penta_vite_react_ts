@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const AreaFooter = () => {
     return (
         <div id="footer" class="row bg-info">
             <div class="col">

@@ -1,19 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import { Text } from './components/Text'
+import { AreaFooter } from './components/AreaFooter'
+import { AreaHeader } from './components/AreaHeader'
+import { AreaMain } from './components/AreaMain'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <Header />
-      <main>
-        <Text text="Hello World" />
-      </main>
-      <Footer />
+      <AreaHeader />
+      <AreaMain />
+      <AreaFooter />
     </div>
   )
 }

@@ -1,4 +1,4 @@
-export const Header = () => {
+export const AreaHeader = () => {
     return (
         <div id="header" class="row bg-info">
             <nav class="navbar navbar-expand-lg navbar-light bg-info ">
